@@ -5,14 +5,14 @@ from rag import load_law_context
 from prompt import SYSTEM_PROMPT
 
 # --- OLLAMA API anrop ---
-def get_ollama_response(prompt: str, model: str):
+def get_ollama_response(prompt: str, model: str, host: str):
     """
-    Calls the Ollama API, streams the response directly to the page,
-    and handles errors. It does not return the response to prevent duplication.
+    Calls the Ollama API at a specified host, streams the response, and handles errors.
     """
     try:
+        url = f"{host}/api/generate"
         response = requests.post(
-            "http://localhost:11434/api/generate",
+            url,
             json={"model": model, "prompt": prompt, "stream": True},
             stream=True
         )
@@ -34,12 +34,12 @@ def get_ollama_response(prompt: str, model: str):
     
     except requests.exceptions.HTTPError as e:
         if e.response.status_code == 404:
-            st.error(f"Model '{model}' not found. Please check the model name.")
-            st.info("How to fix this:\n1. Open your terminal.\n2. Run `ollama list` to see all available models.\n3. Copy the exact name and paste it into the 'Ollama Model Name' box.")
+            st.error(f"Model '{model}' not found at {host}. Please check the model name and host address.")
+            st.info("Ensure the model is pulled and available on the Ollama server.")
         else:
             st.error(f"HTTP Error connecting to Ollama: {e}")
     except requests.exceptions.RequestException as e:
-        st.error(f"Connection Error: Could not connect to Ollama. Please ensure it is running. Details: {e}")
+        st.error(f"Connection Error: Could not connect to {host}. Please ensure the server is running and the URL is correct.")
     except Exception as e:
         st.error(f"An unexpected error occurred: {e}")
 
@@ -61,8 +61,10 @@ st.sidebar.info(
 )
 
 st.sidebar.header("Configuration")
+ollama_host = st.sidebar.text_input("Ollama Host URL:", "http://localhost:11434")
 model_name = st.sidebar.text_input("Ollama Model Name:", "qwen:0.5b")
-st.sidebar.info("Run `ollama list` in your terminal to see available models on your machine.")
+st.sidebar.info("The default Ollama Host URL works for local execution. Change it only if you are hosting Ollama elsewhere.")
+st.sidebar.info("Run `ollama list` in your terminal to see available local models on your machine.")
 
 
 # --- Main Page ---
@@ -82,13 +84,15 @@ if st.button("Get Legal Guidance"):
         st.warning("Please describe your problem in the text box.")
     elif not model_name:
         st.warning("Please enter the Ollama model name in the sidebar.")
+    elif not ollama_host:
+        st.warning("Please enter the Ollama Host URL in the sidebar.")
     else:
         with st.spinner(f"Analyzing your query with model '{model_name}'..."):
             legal_context = load_law_context(issue_type)
             full_prompt = f"{SYSTEM_PROMPT}\n\nContext: {legal_context}\n\nQuery: {user_query}"
             
-            # The function now handles its own display, so we just call it.
-            get_ollama_response(full_prompt, model=model_name)
+            # Pass the host URL to the function
+            get_ollama_response(full_prompt, model=model_name, host=ollama_host)
             
 st.sidebar.header("About")
 st.sidebar.markdown("All processing happens locally on your machine via Ollama, utilizing a local language model.")
