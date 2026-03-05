@@ -1,4 +1,14 @@
-Consumer Law (India):
-- Consumers have the right to file complaints for defective goods or poor services.
-- Complaints can be filed online via the consumer court portal.
-- Invoice or proof of purchase is required.
+The Consumer Protection Act, 2019, provides robust rights to consumers in India.
+
+Key Rights:
+- Right to Safety: Protection from hazardous goods.
+- Right to be Informed: About the quality, quantity, purity, standard, and price of goods.
+- Right to Choose: Access to a variety of goods at competitive prices.
+- Right to be Heard: Consumer's interests will receive due consideration at appropriate forums.
+- Right to Seek Redressal: Against unfair trade practices or exploitation.
+
+Filing a Complaint:
+- You can file a complaint online through the E-Daakhil portal.
+- Website: https://consumerhelpline.gov.in/
+- Office: National Consumer Disputes Redressal Commission (NCDRC) for high-value claims. For district-level issues, contact the District Consumer Disputes Redressal Forum.
+- Form: No specific form number, as the complaint is filed as a detailed document, but it must follow the format prescribed by the NCDRC.

@@ -1,4 +1,13 @@
-Employment Law (India):
-- Employees terminated without notice may be entitled to notice pay.
-- Salary delays violate labour regulations.
-- Complaints can be filed with the Labour Commissioner.
+Indian labour laws provide several protections for employees regarding termination.
+
+Key Points:
+- Unfair Dismissal: An employer cannot terminate an employee without a valid, proven reason, especially in cases of misconduct.
+- Notice Period: Employees are entitled to a notice period or payment in lieu of notice, as specified in their employment contract or the Industrial Disputes Act, 1947.
+- Gratuity & Final Settlement: An employee is entitled to gratuity after 5 years of continuous service and a full and final settlement of dues.
+
+Filing a Complaint:
+- First, send a legal notice to the employer.
+- If unresolved, you can approach the Labour Commissioner's office in your city.
+- Office: Office of the Labour Commissioner.
+- Website: Varies by state (e.g., for Delhi: http://www.labour.delhigovt.nic.in/).
+- Form: Complaint Form (often referred to as Form 'A' or 'C' depending on the state's rules).

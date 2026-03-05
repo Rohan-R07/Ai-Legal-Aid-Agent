@@ -1,4 +1,12 @@
-Traffic Rules (India):
-- Police must issue a valid challan for fines.
-- Bribes are illegal.
-- Complaints can be filed with higher authorities or traffic portals.
+The Motor Vehicles Act, 1988 (amended in 2019) governs traffic rules and penalties in India.
+
+Key Points for Challans (Fines):
+- A traffic challan can be issued on the spot or electronically.
+- You have the right to see the evidence if it's an electronic challan (e.g., a photo of the violation).
+- You can pay challans online or in court.
+
+Contesting a Challan:
+- If you believe a challan was issued incorrectly, you can contest it in a traffic court.
+- Website for checking and paying challans: https://echallan.parivahan.gov.in/
+- Office: Virtual Court or the designated Traffic Court in your city.
+- Process: The process is initiated through the virtual court link found on the e-challan website.

@@ -1,29 +1,13 @@
-Civil Law (India):
+Property disputes are common civil matters, often governed by the Code of Civil Procedure, 1908 and property laws.
 
-Civil law deals with disputes between individuals or organizations where criminal punishment is not involved.
+Key Points for Property Disputes:
+- Title and Ownership: The 'Title Deed' is the most important document establishing ownership.
+- Injunction: If there is a threat of illegal construction or encroachment, you can file a suit for an injunction to stop the activity.
+- Mutation of Property: After purchase, the property must be updated in the municipal records under the new owner's name.
 
-Common civil matters include:
-- Property inheritance and family property disputes
-- Rental and landlord-tenant issues
-- Small business and contract-related disputes
-- Registration of property or legal documents
-- Civil recovery of money or dues
-
-Property and Inheritance:
-- Legal heirs have rights to inherit parental property.
-- Property inheritance can be through a will or according to succession laws.
-- Legal heir certificates may be required for property transfer.
-- Disputes can be resolved through civil courts.
-
-Rental and Housing Issues:
-- Tenants have the right to proper notice before eviction.
-- Rent agreements define rights and obligations of both parties.
-- Complaints can be raised before rent control authorities or civil courts.
-
-Small Civil Disputes:
-- Civil disputes usually involve notices, documentation, and filing cases in civil courts.
-- Many issues can be resolved through legal notices or mediation before going to court.
-
-General Guidance:
-- Proper documentation is important in civil matters.
-- Legal advice from a qualified lawyer is recommended for complex disputes.
+Filing a Suit:
+- The first step is typically to send a legal notice to the other party.
+- A civil suit is filed at the appropriate court based on the property's location and value.
+- Website: Case status can be tracked via the eCourts portal: https://services.ecourts.gov.in/
+- Office: The local Civil Court (e.g., District Court or Sub-Judge Court).
+- Form: The suit is filed as a 'Plaint' under Order VII of the Code of Civil Procedure.
