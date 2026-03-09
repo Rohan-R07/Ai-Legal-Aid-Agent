@@ -251,4 +251,7 @@ Always consult a qualified legal professional for official guidance.
 
 # 📜 License
 
-This project is licensed under the MIT License.
+This project is licensed under the **Apache License 2.0**.
+
+See the full license in the repository:
+[LICENSE](./LICENSE)
