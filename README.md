@@ -5,6 +5,7 @@ The system simplifies complex legal concepts and provides guidance across **empl
 
 This project demonstrates how **Local Large Language Models (LLMs)** can be used to build a practical legal assistance tool that runs with minimal external dependencies.
 
+
 ---
 
 # 🚀 Key Features
