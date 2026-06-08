@@ -1,4 +1,5 @@
-# ⚖️ Legal AI Assistant
+# ⚖️ Legal AI Agent
+
 
 An AI-powered legal assistant that helps users understand **real-world legal problems** using natural language.
 The system simplifies complex legal concepts and provides guidance across **employment, consumer, and civil/traffic law scenarios**.
